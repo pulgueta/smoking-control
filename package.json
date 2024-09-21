@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "biome lint --write .",
+    "lint": "biome lint --write --unsafe .",
     "format": "biome format --write .",
     "prepare": "husky"
   },
